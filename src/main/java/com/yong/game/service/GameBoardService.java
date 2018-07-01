@@ -13,5 +13,5 @@ public interface GameBoardService {
 
     GameBoard initialGameBoardWithCoordinates(List<Cell> coordinates);
 
-    void executeStages(int stages, GameBoard initGameBoard);
+    GameBoard executeStages(int stages, GameBoard initGameBoard);
 }
